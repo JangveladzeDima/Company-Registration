@@ -1,0 +1,30 @@
+{
+  "name": "company-registration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JangveladzeDima/Company-Registration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JangveladzeDima/Company-Registration/issues"
+  },
+  "homepage": "https://github.com/JangveladzeDima/Company-Registration#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "pino": "^7.6.5",
+    "pino-pretty": "^7.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
