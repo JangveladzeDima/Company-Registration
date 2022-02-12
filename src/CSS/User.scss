@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+$ComponentsColor:rgb(13, 84, 119);
+$MainColor : #5CDB95;
+$MainColorHovered : #2dc270;
+$BackgroundColor: #EDF5E1;
+
+.UserPage{
+    background-color: #EDF5E1;
+    height :100vh;
+    .Header{
+        background-color: $MainColor;
+        display:flex;
+        justify-content: space-between;
+        top: 0px;
+        width: 100%;
+        position: absolute;
+        .MuiButton-root{
+            font-family: lora;
+            color:white;
+            font-weight: bold;
+            font-size:20px;
+            border-radius:0px !important;
+            padding-left:30px;
+            padding-right:30px;
+        }
+        .MuiButton-root:hover{
+            background-color: $MainColorHovered;
+        }
+        .active{
+            background-color: $MainColorHovered;
+        }
+        div{
+            display:flex;
+        }
+    }
+    .UserBody{
+        height:100%;
+        display:grid;
+        place-items: center;
+    }
+    .LoginBody{
+        text-align: center;
+        .LoginForm{
+            border:3px solid $MainColor;
+            display:flex;
+            flex-direction: column;
+            width:40vw;
+            gap:50px;
+            padding:40px 50px;
+            border-radius: 10px;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            .MuiFormControl-root{
+                width:100%;
+            }
+        }
+    }
+}
